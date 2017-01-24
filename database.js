@@ -9,10 +9,7 @@ var Database = {
           dialect:  'postgres',
           protocol: 'postgres',
           port:     match[4],
-          host:     match[3],
-          dialectOptions: {
-              ssl: true
-          }
+          host:     match[3]
         };
         
         console.log('Connection:', process.env.HEROKU_POSTGRESQL_RED_URL, match);
