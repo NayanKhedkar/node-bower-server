@@ -10,7 +10,7 @@ var Database = {
           protocol: 'postgres',
           port:     match[4],
           host:     match[3],
-            dialectOptions: {
+          dialectOptions: {
               ssl: true
           } 
         };
